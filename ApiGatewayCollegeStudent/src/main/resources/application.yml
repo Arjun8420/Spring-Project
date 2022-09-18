@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: COLLEGE
+        uri: lb://COLLEGE
+        predicates:
+        - Path=/college/**
+      - id: STUDENT
+        uri: lb://STUDENT
+        predicates:
+        - Path=/student/**
+          
