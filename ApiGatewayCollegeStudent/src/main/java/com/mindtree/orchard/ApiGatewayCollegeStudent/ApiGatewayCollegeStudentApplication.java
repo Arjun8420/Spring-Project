@@ -12,3 +12,4 @@ public class ApiGatewayCollegeStudentApplication
 		SpringApplication.run(ApiGatewayCollegeStudentApplication.class, args);
 	}
 
+}
